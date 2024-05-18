@@ -21,9 +21,9 @@
 ## LƯU Ý
 
 - Thêm profile của `DevUser` vào cấu hình trên máy tính local:
-```c
-$ aws configure --profile DevUser
-```
+    ```c
+    $ aws configure --profile DevUser
+    ```
 
 - Đối với User `DevUser` được tạo ở trên không có quyền truy cập thông qua AWS Console, để kích hoạt chức năng cho phép `DevUser` có thể Login thông qua AWS Console ta thực hiện câu lệnh sau:
 
@@ -32,5 +32,5 @@ $ aws configure --profile DevUser
     ```
 
 - Để tạo SSH Keypair, dùng lệnh:
-> ssh-keygen -t rsa -b 4096 -C "example@example.com"
+`ssh-keygen -t rsa -b 4096 -C "example@example.com"`
 
